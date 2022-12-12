@@ -1,0 +1,37 @@
+{
+  "name": "gigya-cdp-sdk",
+  "version": "0.0.8",
+  "description": "gigya cdp sdk",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc",
+    "test": "npm start && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iBaryo/gigya-cdp-sdk.git"
+  },
+  "keywords": [
+    "gigya",
+    "cdp",
+    "sdk"
+  ],
+  "author": "Baryo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iBaryo/gigya-cdp-sdk/issues"
+  },
+  "homepage": "https://github.com/iBaryo/gigya-cdp-sdk#readme",
+  "devDependencies": {
+    "@types/jasmine": "^3.6.1",
+    "@types/node": "^14.14.7",
+    "@types/openapi-v3": "^3.0.0",
+    "@types/request": "^2.48.5",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "jose": "^3.5.1",
+    "request": "^2.88.2",
+    "strict-uri-encode": "^2.0.0"
+  }
+}
